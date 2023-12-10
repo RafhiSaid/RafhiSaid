@@ -1,4 +1,8 @@
-# Hello, I'M Rafhi Said 👋
+<div align="center">
+  
+![readmebox](https://github.com/RafhiSaid/RafhiSaid/blob/main/readmebox.svg)
+
+</div>
 
 I am an enthusiastic beginner in the world of frontend development. Currently, I am pursuing my dream to become a creative and qualified web developer. Welcome to my repository, where I learn and grow!
 
@@ -25,6 +29,6 @@ Some projects I developed as part of my learning journey:
 
 ## 📫 How To Cantact Me
 
-If you would like to discuss or collaborate, please contact me [Email](mrafhisaidhafiz@gmail.com) or [Instagram](https://www.instagram.com/rafhisa.id).
+If you would like to discuss or collaborate, please contact me [Email](mailto:mrafhisaidhafiz@gmail.com) or [Instagram](https://www.instagram.com/rafhisa.id).
 
 Thank you for viewing my profile! I am very enthusiastic to continue learning and contributing to the world of web development. 😊
