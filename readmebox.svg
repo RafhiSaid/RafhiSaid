@@ -1,0 +1,48 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Merriweather:wght@700&family=Silkscreen&display=swap');
+
+    .text {
+      font-family: 'Hedvig Letters Sans', sans-serif;
+      font-size: 32px;
+      fill: #2ecc71; /* Warna Hijau */
+      text-anchor: middle;
+      animation: textChange 8s infinite;
+    }
+
+    @keyframes textChange {
+      0%, 20% {
+        tspan:nth-child(1) { fill: #2ecc71; }
+        tspan:nth-child(2) { fill: transparent; }
+        tspan:nth-child(3) { fill: transparent; }
+        tspan:nth-child(4) { fill: transparent; }
+        tspan:nth-child(5) { fill: transparent; }
+      }
+      25%, 45% {
+        tspan:nth-child(2) { fill: #2ecc71; }
+        tspan:nth-child(3) { fill: transparent; }
+        tspan:nth-child(4) { fill: transparent; }
+        tspan:nth-child(5) { fill: transparent; }
+      }
+      50%, 70% {
+        tspan:nth-child(3) { fill: #2ecc71; }
+        tspan:nth-child(4) { fill: transparent; }
+        tspan:nth-child(5) { fill: transparent; }
+      }
+      75%, 95% {
+        tspan:nth-child(4) { fill: #2ecc71; }
+        tspan:nth-child(5) { fill: transparent; }
+      }
+      100% {
+        tspan:nth-child(5) { fill: #2ecc71; }
+      }
+    }
+  </style>
+
+  <text x="50%" y="50%" class="text">
+    <tspan>HELLO</tspan>
+    <tspan>IM</tspan>
+    <tspan>RAFHI</tspan>
+    <tspan>SAID</tspan>
+  </text>
+</svg>
