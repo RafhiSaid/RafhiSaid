@@ -1,48 +1,31 @@
-<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
   <style>
-<!--     @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Merriweather:wght@700&family=Silkscreen&display=swap'); -->
-
     .text {
-      font-family: 'Hedvig Letters Sans', sans-serif;
-      font-size: 32px;
-      fill: #2ecc71; /* Warna Hijau */
+      font-family: 'Arial', sans-serif;
+      font-size: 40px;
+      fill: #2ecc71;
+      font-weight: 800;
       text-anchor: middle;
-      animation: textChange 8s infinite;
+      animation: colorChange 1s infinite;
     }
 
-    @keyframes textChange {
-      0%, 20% {
-        tspan:nth-child(1) { fill: #2ecc71; }
-        tspan:nth-child(2) { fill: transparent; }
-        tspan:nth-child(3) { fill: transparent; }
-        tspan:nth-child(4) { fill: transparent; }
-        tspan:nth-child(5) { fill: transparent; }
+    @keyframes colorChange {
+      0%, 100% {
+        fill: #092635;
       }
-      25%, 45% {
-        tspan:nth-child(2) { fill: #2ecc71; }
-        tspan:nth-child(3) { fill: transparent; }
-        tspan:nth-child(4) { fill: transparent; }
-        tspan:nth-child(5) { fill: transparent; }
+      25% {
+        fill: #1B4242; 
       }
-      50%, 70% {
-        tspan:nth-child(3) { fill: #2ecc71; }
-        tspan:nth-child(4) { fill: transparent; }
-        tspan:nth-child(5) { fill: transparent; }
+      50% {
+        fill: #5C8374; 
       }
-      75%, 95% {
-        tspan:nth-child(4) { fill: #2ecc71; }
-        tspan:nth-child(5) { fill: transparent; }
-      }
-      100% {
-        tspan:nth-child(5) { fill: #2ecc71; }
+      75% {
+        fill: #9EC8B9;
       }
     }
   </style>
 
   <text x="50%" y="50%" class="text">
-    <tspan>HELLO</tspan>
-    <tspan>IM</tspan>
-    <tspan>RAFHI</tspan>
-    <tspan>SAID</tspan>
+    HELLO, IM RAFHI SAID
   </text>
 </svg>
