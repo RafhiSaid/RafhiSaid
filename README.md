@@ -10,7 +10,6 @@ I am an enthusiastic beginner in the world of frontend development. Currently, I
 
 - **Programming language:** HTML, CSS, JavaScript
 - **Framework:** React
-- **Design UI/UX:** Sedang belajar, menggunakan Figma
 - **Tools:** VS Code, Git
 
 ## 🌱 Under Study
