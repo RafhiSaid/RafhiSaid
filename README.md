@@ -20,12 +20,6 @@ Currently, I am focusing on deepening my understanding in:
 - Interactive animations and effects with CSS and JavaScript
 - Improved React expertise and its ecosystem
 
-## 📚 Learning Project
-
-Some projects I developed as part of my learning journey:
-
-[100 Project Challenge](https://100-project-challenge.vercel.app/): This is a project I created to hone my skills in implementing web development.
-
 ## 📫 How To Cantact Me
 
 If you would like to discuss or collaborate, please contact me [Email](mailto:mrafhisaidhafiz@gmail.com) or [Instagram](https://www.instagram.com/rafhisa.id).
